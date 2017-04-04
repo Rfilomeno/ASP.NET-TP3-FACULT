@@ -19,7 +19,7 @@ namespace TP3.Repository
     }
     public class LivroRepository : ILivroRepository
     {
-        string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Assessment - ASP.NET - Rodrigo\TP3\App_Data\Livros2.mdf;Integrated Security=True";
+        string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Assessment - ASP.NET - Rodrigo\TP3\App_Data\Livros.mdf;Integrated Security=True";
         public IEnumerable<Livro> GetAllLivros()
         {
             

@@ -81,7 +81,7 @@ namespace TP3.Controllers
                 {
                     LivroId = emprestimo.LivroId,
                     DataEmprestimo = emprestimo.DataEmprestimo,
-                    DataDevolucao = Convert.ToDateTime(emprestimo.DataDevolucao)
+                    DataDevolucao = emprestimo.DataDevolucao
                     
                 });
 
@@ -138,7 +138,7 @@ namespace TP3.Controllers
 
             var emprestimo = repository.DetailEmprestimo(id);
 
-            var emprestimoViewModel = new EmprestimoViewModel
+            var emprestimoViewModel = new EmprestimoViewModel()
             {
                 Id = emprestimo.Id,
                 LivroId = emprestimo.LivroId,
@@ -163,11 +163,11 @@ namespace TP3.Controllers
             {
                 var delete = repository.DeleteEmprestimo(id, emprestimo.LivroId);
 
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", "Livros");
             }
             catch
             {
-                return View();
+                return View("Index");
             }
         }
     }
