@@ -8,12 +8,21 @@ using TP3.Domain;
 
 namespace TP3.Repository
 {
-    public class LivroRepository
+    public interface ILivroRepository
     {
+        IEnumerable<Livro> GetAllLivros();
+        void CreateLivro(Livro livro);
+        Livro DetailLivro(int id);
+        bool DeleteLivro(int id);
+        void EditLivro(Livro livro);
+        
+    }
+    public class LivroRepository : ILivroRepository
+    {
+        string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Assessment - ASP.NET - Rodrigo\TP3\App_Data\Livros2.mdf;Integrated Security=True";
         public IEnumerable<Livro> GetAllLivros()
         {
-            var connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\workspace\ASPNET\TP3\TP3\App_Data\Livros.mdf;Integrated Security=True";
-
+            
             using (var connection = new SqlConnection(connectionString))
             {
                 var commandText = "SELECT * FROM Livro";
@@ -36,7 +45,7 @@ namespace TP3.Repository
                             livro.Autor = reader["Autor"].ToString();
                             livro.Editora = reader["Editora"].ToString();
                             livro.Ano = (int)reader["Ano"];
-
+                            livro.Disponivel = Convert.ToBoolean(reader["Disponivel"]);
 
                             livros.Add(livro);
                         }
@@ -52,19 +61,20 @@ namespace TP3.Repository
                 return livros;
             }
         }
-
-        internal void CreateLivro(Livro livro)
+        
+        public void CreateLivro(Livro livro)
         {
-            var connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\workspace\ASPNET\TP3\TP3\App_Data\Livros.mdf;Integrated Security=True";
+           
 
             using (var connection = new SqlConnection(connectionString))
             {
-                var commandText = "INSERT INTO Livro (Titulo, Autor, Editora, Ano) VALUES (@Titulo, @Autor, @Editora, @Ano)";
+                var commandText = "INSERT INTO Livro (Titulo, Autor, Editora, Ano, Disponivel) VALUES (@Titulo, @Autor, @Editora, @Ano, @Disponivel)";
                 var insertCommand = new SqlCommand(commandText, connection);
                 insertCommand.Parameters.AddWithValue("@Titulo", livro.Titulo);
                 insertCommand.Parameters.AddWithValue("@Autor", livro.Autor);
                 insertCommand.Parameters.AddWithValue("@Editora", livro.Editora);
                 insertCommand.Parameters.AddWithValue("@Ano", livro.Ano);
+                insertCommand.Parameters.AddWithValue("@Disponivel", true);
                 try
                 {
                     connection.Open();
@@ -80,7 +90,7 @@ namespace TP3.Repository
 
         public Livro DetailLivro(int id)
         {
-            var connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\workspace\ASPNET\TP3\TP3\App_Data\Livros.mdf;Integrated Security=True";
+            
 
             using (var connection = new SqlConnection(connectionString))
             {
@@ -123,7 +133,7 @@ namespace TP3.Repository
         public bool DeleteLivro(int id)
         {
             int rows = 0;
-            var connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\workspace\ASPNET\TP3\TP3\App_Data\Livros.mdf;Integrated Security=True";
+            
 
             using (var connection = new SqlConnection(connectionString))
             {
@@ -144,9 +154,9 @@ namespace TP3.Repository
 
         }
 
-        internal void EditLivro(Livro livro)
+        public void EditLivro(Livro livro)
         {
-            var connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\workspace\ASPNET\TP3\TP3\App_Data\Livros.mdf;Integrated Security=True";
+            
 
             using (var connection = new SqlConnection(connectionString))
             {

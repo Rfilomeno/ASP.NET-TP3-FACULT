@@ -1,69 +1,81 @@
-C:\workspace\ASPNET\TP3\TP3\bin\roslyn\csc.exe
-C:\workspace\ASPNET\TP3\TP3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\workspace\ASPNET\TP3\TP3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\workspace\ASPNET\TP3\TP3\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\workspace\ASPNET\TP3\TP3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\workspace\ASPNET\TP3\TP3\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\workspace\ASPNET\TP3\TP3\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\workspace\ASPNET\TP3\TP3\bin\roslyn\System.Collections.Immutable.dll
-C:\workspace\ASPNET\TP3\TP3\bin\roslyn\System.Reflection.Metadata.dll
-C:\workspace\ASPNET\TP3\TP3\bin\roslyn\vbc.exe
-C:\workspace\ASPNET\TP3\TP3\bin\roslyn\VBCSCompiler.exe
-C:\workspace\ASPNET\TP3\TP3\bin\roslyn\VBCSCompiler.exe.config
-C:\workspace\ASPNET\TP3\TP3\bin\TP3.dll.config
-C:\workspace\ASPNET\TP3\TP3\bin\TP3.dll
-C:\workspace\ASPNET\TP3\TP3\bin\TP3.pdb
-C:\workspace\ASPNET\TP3\TP3\bin\Antlr3.Runtime.dll
-C:\workspace\ASPNET\TP3\TP3\bin\EntityFramework.dll
-C:\workspace\ASPNET\TP3\TP3\bin\EntityFramework.SqlServer.dll
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.AspNet.Identity.Core.dll
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.Owin.dll
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.Owin.Security.Cookies.dll
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.Owin.Security.dll
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.Owin.Security.Facebook.dll
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.Owin.Security.Google.dll
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.Owin.Security.OAuth.dll
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.Owin.Security.Twitter.dll
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.Web.Infrastructure.dll
-C:\workspace\ASPNET\TP3\TP3\bin\Newtonsoft.Json.dll
-C:\workspace\ASPNET\TP3\TP3\bin\Owin.dll
-C:\workspace\ASPNET\TP3\TP3\bin\System.Web.Helpers.dll
-C:\workspace\ASPNET\TP3\TP3\bin\System.Web.Mvc.dll
-C:\workspace\ASPNET\TP3\TP3\bin\System.Web.Optimization.dll
-C:\workspace\ASPNET\TP3\TP3\bin\System.Web.Razor.dll
-C:\workspace\ASPNET\TP3\TP3\bin\System.Web.WebPages.Deployment.dll
-C:\workspace\ASPNET\TP3\TP3\bin\System.Web.WebPages.dll
-C:\workspace\ASPNET\TP3\TP3\bin\System.Web.WebPages.Razor.dll
-C:\workspace\ASPNET\TP3\TP3\bin\WebGrease.dll
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\workspace\ASPNET\TP3\TP3\bin\System.Web.Helpers.xml
-C:\workspace\ASPNET\TP3\TP3\bin\System.Web.Mvc.xml
-C:\workspace\ASPNET\TP3\TP3\bin\System.Web.Optimization.xml
-C:\workspace\ASPNET\TP3\TP3\bin\System.Web.Razor.xml
-C:\workspace\ASPNET\TP3\TP3\bin\System.Web.WebPages.xml
-C:\workspace\ASPNET\TP3\TP3\bin\System.Web.WebPages.Deployment.xml
-C:\workspace\ASPNET\TP3\TP3\bin\System.Web.WebPages.Razor.xml
-C:\workspace\ASPNET\TP3\TP3\bin\Antlr3.Runtime.pdb
-C:\workspace\ASPNET\TP3\TP3\bin\Newtonsoft.Json.xml
-C:\workspace\ASPNET\TP3\TP3\bin\EntityFramework.xml
-C:\workspace\ASPNET\TP3\TP3\bin\EntityFramework.SqlServer.xml
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.AspNet.Identity.Core.xml
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.Owin.xml
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.Owin.Security.xml
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.Owin.Security.Facebook.xml
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.Owin.Security.Cookies.xml
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.Owin.Security.OAuth.xml
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.Owin.Security.Google.xml
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.Owin.Security.Twitter.xml
-C:\workspace\ASPNET\TP3\TP3\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\workspace\ASPNET\TP3\TP3\obj\Debug\TP3.csprojResolveAssemblyReference.cache
-C:\workspace\ASPNET\TP3\TP3\obj\Debug\TP3.dll
-C:\workspace\ASPNET\TP3\TP3\obj\Debug\TP3.pdb
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\roslyn\csc.exe
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\roslyn\System.Collections.Immutable.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\roslyn\System.Reflection.Metadata.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\roslyn\vbc.exe
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\roslyn\VBCSCompiler.exe
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\roslyn\VBCSCompiler.exe.config
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\TP3.dll.config
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\TP3.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\TP3.pdb
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Antlr3.Runtime.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\EntityFramework.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\EntityFramework.SqlServer.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Owin.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Owin.Security.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Owin.Security.Google.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Practices.Unity.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Practices.Unity.Mvc.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Web.Infrastructure.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Newtonsoft.Json.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Owin.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\System.Web.Helpers.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\System.Web.Mvc.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\System.Web.Optimization.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\System.Web.Razor.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\System.Web.WebPages.Deployment.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\System.Web.WebPages.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\System.Web.WebPages.Razor.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\WebActivatorEx.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\WebGrease.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Practices.Unity.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Practices.Unity.Mvc.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\System.Web.Helpers.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\System.Web.Mvc.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\System.Web.Optimization.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\System.Web.Razor.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\System.Web.WebPages.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\System.Web.WebPages.Deployment.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\System.Web.WebPages.Razor.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Antlr3.Runtime.pdb
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Newtonsoft.Json.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\EntityFramework.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\EntityFramework.SqlServer.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Owin.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Owin.Security.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Owin.Security.Google.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Assessment - ASP.NET - Rodrigo\TP3\obj\Debug\TP3.csprojResolveAssemblyReference.cache
+C:\Assessment - ASP.NET - Rodrigo\TP3\obj\Debug\TP3.dll
+C:\Assessment - ASP.NET - Rodrigo\TP3\obj\Debug\TP3.pdb

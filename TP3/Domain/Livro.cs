@@ -17,5 +17,7 @@ namespace TP3.Domain
 
         public int Ano { get; set; }
 
+        public bool Disponivel { get; set; }
+
     }
 }

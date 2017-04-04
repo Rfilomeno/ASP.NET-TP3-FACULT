@@ -11,6 +11,12 @@ namespace TP3.Controllers
 {
     public class LivrosController : Controller
     {
+        private readonly ILivroRepository repository;
+
+        public LivrosController(ILivroRepository repository)
+        {
+            this.repository = repository;
+        }
         // GET: Livros
         public ActionResult Index()
         {
@@ -25,7 +31,8 @@ namespace TP3.Controllers
                     Titulo = l.Titulo,
                     Autor = l.Autor,
                     Editora = l.Editora,
-                    Ano = l.Ano
+                    Ano = l.Ano,
+                    Disponivel = l.Disponivel
                 }
                 ));
         }
@@ -155,6 +162,11 @@ namespace TP3.Controllers
             {
                 return View();
             }
+        }
+
+        public ActionResult Emprestimo()
+        {
+            return RedirectToAction("Index","Emprestimos");
         }
     }
 }

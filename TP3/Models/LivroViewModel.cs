@@ -28,5 +28,8 @@ namespace TP3.Models
 
         [Required]
         public int Ano { get; set; }
+
+        [Required]
+        public bool Disponivel { get; set; }
     }
 }
