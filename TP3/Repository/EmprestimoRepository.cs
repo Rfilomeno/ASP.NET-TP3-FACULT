@@ -181,27 +181,30 @@ namespace TP3.Repository
             {
 
                 var livroAntigo = DetailEmprestimo(emprestimo.Id);
-
-                if (emprestimo.LivroId != livroAntigo.LivroId)
+                if (livroAntigo != null)
                 {
-                    var commandText2 = $"UPDATE Livro SET Disponivel = '1' WHERE Id = { livroAntigo.LivroId }";
-                    var commandText3 = $"UPDATE Livro SET Disponivel = '0' WHERE Id = { emprestimo.LivroId }";
-                    var insertCommand2 = new SqlCommand(commandText2, connection);
-                    var insertCommand3 = new SqlCommand(commandText3, connection);
-
-                    try
+                    if (emprestimo.LivroId != livroAntigo.LivroId)
                     {
-                        connection.Open();
-                        insertCommand2.ExecuteNonQuery();
-                        insertCommand3.ExecuteNonQuery();
-                    }
-                    finally
-                    {
+                        var commandText2 = $"UPDATE Livro SET Disponivel = '1' WHERE Id = { livroAntigo.LivroId }";
+                        var commandText3 = $"UPDATE Livro SET Disponivel = '0' WHERE Id = { emprestimo.LivroId }";
+                        var insertCommand2 = new SqlCommand(commandText2, connection);
+                        var insertCommand3 = new SqlCommand(commandText3, connection);
 
-                        connection.Close();
-                    }
+                        try
+                        {
+                            connection.Open();
+                            insertCommand2.ExecuteNonQuery();
+                            insertCommand3.ExecuteNonQuery();
+                        }
+                        finally
+                        {
 
+                            connection.Close();
+                        }
+
+                    }
                 }
+                
 
                 var commandText = $"UPDATE Emprestimos SET LivroId = '{ emprestimo.LivroId }', DataEmprestimo = '{ emprestimo.DataEmprestimo }', DataDevolucao = '{ emprestimo.DataDevolucao }' WHERE Id = { emprestimo.Id }";
                 var insertCommand = new SqlCommand(commandText, connection);

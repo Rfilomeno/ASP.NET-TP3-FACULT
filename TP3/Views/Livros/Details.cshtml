@@ -41,6 +41,20 @@
         <dd>
             @Html.DisplayFor(model => model.Ano)
         </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Disponivel)
+        </dt>
+
+        <dd>
+            @if (Model.Disponivel)
+            {
+                <span>Sim | </span> @Html.ActionLink("Pegar Emprestimo", "Create", "Emprestimos",new { id = Model.Id },"")
+            }else
+            {
+                <span>Não | </span>@Html.ActionLink("Lista de Emprestimos", "Index", "Emprestimos")
+            }
+                        
+        </dd>
 
     </dl>
 </div>

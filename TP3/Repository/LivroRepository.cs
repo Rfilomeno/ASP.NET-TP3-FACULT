@@ -113,6 +113,7 @@ namespace TP3.Repository
                             livroPesquisado.Autor = reader["Autor"].ToString();
                             livroPesquisado.Editora = reader["Editora"].ToString();
                             livroPesquisado.Ano = (int)reader["Ano"];
+                            livroPesquisado.Disponivel = Convert.ToBoolean(reader["Disponivel"]);
 
 
                         }

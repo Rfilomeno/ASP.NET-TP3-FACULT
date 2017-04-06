@@ -11,7 +11,13 @@ namespace TP3.Controllers
 {
     public class EmprestimosController : Controller
     {
-        
+        private readonly IEmprestimoRepository repository;
+
+        public EmprestimosController(IEmprestimoRepository repository)
+        {
+            this.repository = repository;
+        }
+
         // GET: Emprestimos
         public ActionResult Index()
         {
@@ -114,6 +120,7 @@ namespace TP3.Controllers
         {
             if (ModelState.IsValid)
             {
+                
                 var repository = new EmprestimoRepository();
 
                 repository.EditEmprestimo(new Emprestimo()
@@ -125,6 +132,7 @@ namespace TP3.Controllers
                     DataDevolucao = emprestimo.DataDevolucao
 
                 });
+               
 
                 return RedirectToAction("Index");
             }

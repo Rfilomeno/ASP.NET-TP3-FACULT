@@ -17,6 +17,7 @@ namespace TP3.Controllers
         {
             this.repository = repository;
         }
+
         // GET: Livros
         public ActionResult Index()
         {
@@ -49,7 +50,8 @@ namespace TP3.Controllers
                 Ano = livro.Ano,
                 Autor = livro.Autor,
                 Editora = livro.Editora,
-                Titulo = livro.Titulo
+                Titulo = livro.Titulo,
+                Disponivel = livro.Disponivel
             };
 
             return View(livroViewModel);

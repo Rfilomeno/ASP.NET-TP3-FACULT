@@ -9,7 +9,6 @@ namespace TP3.Models
     public class EmprestimoViewModel
     {
         public int Id { get; set; }
-        [Required]
         public int LivroId { get; set; }
         [Required]
         public string Titulo { get; set; }

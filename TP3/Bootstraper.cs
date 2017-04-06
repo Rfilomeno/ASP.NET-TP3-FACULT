@@ -16,6 +16,7 @@ namespace TP3
             var container = new UnityContainer();
 
             container.RegisterType<ILivroRepository, LivroRepository>();
+            container.RegisterType<IEmprestimoRepository, EmprestimoRepository>();
             DependencyResolver.SetResolver(new UnityDependencyResolver(container));
 
             return container;
